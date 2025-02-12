@@ -79,7 +79,7 @@ let reasons = [
   "Your passion for your work is inspiring. 🫡",
   "You make ordinary moments feel special. ✨",
   "You never act superior to anyone. 🙌",
-  "You treat everyone with respect, no matter who they are. 🤝",
+  "You treat people with respect, no matter who they are. 🤝",
   "You’re different in the best way. 🌟",
   "Awkward? Never with you. 😎",
   "You’re perfectly imperfect, and I love it. 💕",
