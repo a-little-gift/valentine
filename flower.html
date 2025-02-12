@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers 🌸</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #pickupInfo {
+            text-align: left;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        #mapsButton {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 id="message1">I wish I could buy you flowers… 😢</h3>
+        <h3 id="message2" style="display: none;">Oh wait, I can! 😮💡</h3>
+        
+        <h3 id="message3" style="display: none;">Ready for a drive? 😎 🚗</h3>
+
+        <div id="pickupInfo" style="display: none;">
+            <p>📍 <strong>Location: Spring Garden Flower Shop</strong></p>
+            <p>📅 <strong>Date:</strong> 14/02 - 2025</p>
+            <p>⏰ <strong>Pickup Time:</strong> 2:00 PM</p>
+            <p>📝 <strong>Instructions:</strong> 🐶</p>
+        </div>
+
+        <a id="mapsButton" href="https://maps.app.goo.gl/7ALPas94rdM9ft2c8" target="_blank" style="display: none; ">
+            <button>Open in Maps</button>
+        </a>
+
+        <h4 id="closingMessage" style="display: none;">Hope you like them! 🤗 💐</h4>
+    </div>
+
+    <script>
+
+    setTimeout(() => {
+ 
+        document.getElementById("message2").style.display = "block";
+
+        setTimeout(() => {
+
+            document.getElementById("message3").style.display = "block";
+
+            setTimeout(() => {
+            
+                document.getElementById("message1").style.display = "none";
+                document.getElementById("message2").style.display = "none";
+                
+          
+                document.getElementById("pickupInfo").style.display = "block";
+
+                setTimeout(() => {
+    
+                    document.getElementById("mapsButton").style.display = "block";
+
+                    setTimeout(() => {
+          
+                        document.getElementById("closingMessage").style.display = "block";
+                    }, 3000); 
+                }, 3000); 
+            }, 3000); 
+        }, 4000); 
+    }, 3000); 
+</script>
+</body>
+</html>

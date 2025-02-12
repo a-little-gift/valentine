@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome 🤗</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="welcomeText"></h1>
+        <h3 id="valentineMessage">Happy Valentine's Day! 🤗</h3>
+        
+
+        <div id="musicSection">
+            <button id="playButton" onclick="playMusic()">Play</button>
+            <button id="stopButton" onclick="stopMusic()">Pause</button>
+            <audio id="song" src="song.mp3"></audio>
+        </div>
+
+        <div id="soundOnText" style="display:none;">
+            <p>Sound On! 🎶 </p>
+        </div>
+
+        <div id="questionSection">
+            <p id="ever">Ever wondered... </p>
+            <p id="crazy">Why this crazy girl is so into you? 🙈</p>
+           
+            <button id="yesButton" onclick="handleYes()">Yes</button>
+            <button id="noButton" onclick="handleNo()">No</button>
+        </div>
+
+        <p id="responseMessage"></p>
+
+        <button id="whyILikeYouButton" onclick="showReason()" style="display: none;">Why I Like You</button>
+        <p id="reasonDisplay"></p>
+
+        <p id="finalMessage1"></p>
+        <p id="finalMessage2"></p>
+        <button id="guessWhatButton" style="display: none;" onclick="redirect()">Guess What?</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

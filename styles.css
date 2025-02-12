@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #ffe4e1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #f0f0f0; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+
+h1, p {
+    font-family: Arial, sans-serif;
+    color: #444; 
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, p {
+    font-family: Arial, sans-serif;
+    color: #444; 
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #848282;
+    background-color: #f5f5f5; 
+    color: #555;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    background-color: #e0e0e0; 
+    color: #444; 
+    border: 3px solid #d6d6d6;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d6d6d6;
+}
+
+#mapsButton button {
+    width: 95%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #444; 
+    border: 3px solid #d6d6d6;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+#mapsButton button:hover {
+    background-color: #d6d6d6; 
+    border-color: #b0b0b0; 
+}
+
+#loginMessage {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
