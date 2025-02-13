@@ -92,7 +92,7 @@ let reasons = [
   "You always know what to say. 💬",
   "You see the brighter side of things. 🌞",
   "You don’t give your heart to just anyone. ❤️",
-  "You’ve been through a lot, and I really admire that. 🙏",
+  "You’ve been through a lot, and you keep going. I really admire that. 🙏",
   "You’re my high standard. 🌟",
 ];
 let currentReason = 0;
