@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 let reasons = [
-  "You’re so good to Billie, and that says a lot about you. 🐶",
+  "You’re so good to Billie, and that says\na lot about you. 🐶",
   "You make me laugh when I don’t even want to smile. 🫠",
   "Talking to you feels like home. 🏡",
   "You care about the world, and it’s all real. 🌍",
