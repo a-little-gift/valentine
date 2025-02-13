@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 let reasons = [
-  "You’re so good to Billie, and that says a lot. 🐶",
+  "You’re so good to Billie, and that says a lot about you. 🐶",
   "You make me laugh when I don’t even want to smile. 🫠",
   "Talking to you feels like home. 🏡",
   "You care about the world, and it’s all real. 🌍",
@@ -74,9 +74,9 @@ let reasons = [
   "You’re thoughtful in ways that always surprise me. 🫢",
   "You’re just yourself, no fake stuff. 💯",
   "You’re so bad at being bad. 🙄",
-  "You’re a caring ninja 🥷 ",
+  "You’re a caring ninja. 🥷 ",
   "You don’t just hear but actually listen. 👂🏼",
-  "Your passion for your work is inspiring. 🫡",
+  "Your passion for your work is inspiring. ❤️‍🔥",
   "You make ordinary moments feel special. ✨",
   "You never act superior to anyone. 🙌",
   "You treat people with respect, no matter who they are. 🤝",
@@ -92,8 +92,8 @@ let reasons = [
   "You always know what to say. 💬",
   "You see the brighter side of things. 🌞",
   "You don’t give your heart to just anyone. ❤️",
-  "You’ve been through a lot, and still keep going. I admire that. 🙏",
-  "You’re my high standard. 🌟",
+  "You’ve been through a lot, and still keep going. 🫡",
+  "You’re my high standard. 💎",
 ];
 let currentReason = 0;
 let hasClickedYes = false;
