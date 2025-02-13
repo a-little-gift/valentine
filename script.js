@@ -91,8 +91,8 @@ let reasons = [
   "You stand up for what’s right. ✊",
   "You always know what to say. 💬",
   "You see the brighter side of things. 🌞",
-  "You don’t give your heart to just anyone. ❤️",
   "You’ve been through a lot, and still keep going. 🫡",
+  "You don’t give your heart to just anyone. ❤️",
   "You’re my high standard. 💎",
 ];
 let currentReason = 0;
