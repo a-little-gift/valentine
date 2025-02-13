@@ -59,7 +59,7 @@ let reasons = [
   "Talking to you feels like home. 🏡",
   "You care about the world, and it’s all real. 🌍",
   "You have a good heart, and you’re terrible at hiding it. 💖",
-  "Your red cheeks. 🤭",
+  "The way you blush. 🤭",
   "Your eyes? I’m obsessed. 🙈",
   "Your voice is dangerous. 🔥",
   "You’re strong in ways you don’t even realize. 💪🏼",
